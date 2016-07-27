@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/lighter" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/green_box"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+
+            android:minHeight="60dp"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:paddingTop="15.0dip"
+            android:text="这就是你要的" />
+
+
+        <Button
+            android:id="@+id/positiveButton"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="#00000000" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

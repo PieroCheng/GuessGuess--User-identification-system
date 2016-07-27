@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp">
+
+        <ImageView
+            android:id="@+id/reglatch"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="50dp"
+            android:paddingTop="30dp"
+            android:src="@drawable/latch" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="255dp"
+            android:src="@drawable/latch_base" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_reg_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/menu" />
+
+</LinearLayout>

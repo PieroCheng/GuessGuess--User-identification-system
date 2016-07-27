@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main">
+
+
+    <com.pierocheng.gugu.MyProgressBar
+
+
+        android:id="@+id/pb_finger"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true">
+
+    </com.pierocheng.gugu.MyProgressBar>
+
+</RelativeLayout>

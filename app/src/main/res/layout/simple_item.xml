@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar_body"
+            android:layout_gravity="center"/>
+
+        <FrameLayout
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            >
+            <com.pierocheng.gugu.util.CircleImageView
+                android:id="@+id/iv_item"
+                android:layout_width="73dp"
+                android:layout_height="73dp"
+                android:src="@drawable/avstar_nobody" />
+
+        </FrameLayout>
+    </FrameLayout>

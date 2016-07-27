@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/touchResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/aeraResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/cameraResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/voiceResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp">
+
+        <ImageView
+            android:id="@+id/latch"
+            android:layout_width="130dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="50dp"
+            android:paddingTop="30dp"
+            android:src="@drawable/latch" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="155dp"
+            android:src="@drawable/latch_base" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/menu" />
+
+
+</LinearLayout>

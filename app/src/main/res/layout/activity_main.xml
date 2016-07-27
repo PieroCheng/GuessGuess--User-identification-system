@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_new"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pierocheng.gugu.MainActivity">
+
+    <ImageView
+        android:id="@+id/gugu"
+        android:layout_width="330dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/gugu" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gugu"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/main_btn"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="140dp"
+            android:background="@null"
+            android:src="@drawable/base" />
+    </FrameLayout>
+</RelativeLayout>

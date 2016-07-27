@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frame8"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/base_user8"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:src="@drawable/base_user" />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/avatar_body8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/avatar_body" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <com.pierocheng.gugu.util.CircleImageView
+                    android:id="@+id/avatar8"
+                    android:layout_width="73dp"
+                    android:layout_height="73dp"
+                    android:src="@drawable/avstar_nobody" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp">
+
+            <ImageView
+                android:id="@+id/right_user8"
+                android:layout_width="77dp"
+                android:layout_height="77dp"
+                android:src="@drawable/right_user" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/lock_user8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/add" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_user8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ed0e0e0e"
+                android:text="点击注册"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/address_user8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ed0e0e0e"
+                android:text="click to register"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+</RelativeLayout>

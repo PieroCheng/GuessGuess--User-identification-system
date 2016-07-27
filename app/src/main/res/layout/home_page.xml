@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_new"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <include layout="@layout/user1" />
+
+            <include layout="@layout/user2" />
+
+            <include layout="@layout/user3" />
+
+            <include layout="@layout/user4" />
+
+            <include layout="@layout/user5" />
+
+            <include layout="@layout/user6" />
+
+            <include layout="@layout/user7" />
+
+            <include layout="@layout/user8" />
+
+            <include layout="@layout/user9" />
+
+            <include layout="@layout/user10" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

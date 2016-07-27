@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/timer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="10"
+            android:textSize="70sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+
+        <ImageView
+            android:id="@+id/wave1_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave" />
+
+        <ImageView
+            android:id="@+id/wave2_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave" />
+
+        <ImageView
+            android:id="@+id/wave3_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave" />
+
+        <ImageView
+            android:id="@+id/wave4_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave" />
+
+        <ImageView
+            android:id="@+id/wave5_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave" />
+
+        <ImageView
+            android:id="@+id/wave6_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave" />
+
+        <ImageView
+            android:id="@+id/wave7_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave" />
+        <ImageView
+            android:id="@+id/wave8_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave" />
+        <ImageView
+            android:id="@+id/wave9_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/wave" />
+        <ImageView
+            android:id="@+id/normal_layout"
+            android:layout_width="166dp"
+            android:layout_height="166dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/normal" />
+    </RelativeLayout>
+</LinearLayout>

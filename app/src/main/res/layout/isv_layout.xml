@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main">
+
+    <FrameLayout
+        android:id="@+id/fl_mic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        >
+       <ImageView
+           android:id="@+id/iv_mic_anim"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:src="@drawable/with_circle"
+           android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/iv_mic"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/with_no_circle"
+            android:layout_gravity="center"/>
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_isv_textpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fl_mic" />
+
+    <TextView
+        android:id="@+id/tv_isv_massage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_isv_textpwd" />
+</RelativeLayout>
